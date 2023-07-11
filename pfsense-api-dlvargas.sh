@@ -15,7 +15,7 @@ if [ $? -ne 0 ]; then
 fi
 
 # Punto de control 3: Verificar la ejecución de fauxapi_latest.sh
-echo "Y" | ./fauxapi_latest.sh
+echo "Y" | ./usr/local/www/fauxapi_dlvargas.sh
 if [ $? -ne 0 ]; then
     echo "Error: Fallo al ejecutar fauxapi_latest.sh"
     exit 1
