@@ -31,5 +31,3 @@ fi
 echo "El script se ejecutó correctamente"
 exit 0
 
-
-sh /usr/local/www/fauxapi_dlvargas.sh
